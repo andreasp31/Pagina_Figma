@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    font-family: "Poppins";
+}
+
+#menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+    gap:3.5em;
+    padding-top: 1em;
+    font-weight: 400;
+}
+
+.boton{
+    display: flex;
+    background-color: #696057;
+    color: white;
+    width: 8.5em;
+    height: 1.3em;
+    text-align: center;
+    align-content: center;
+    justify-content:center;
+    border-radius: 1.5em;
+    padding-top:0.5em ;
+    padding-bottom:0.5em ;
+}
+
+#apartados{
+    padding-top: 1em;
+}
+
+#hero{
+    height: 35em;
+    background-image: url(Imagenes/Group\ 11.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.hero_texto{
+    
+}
