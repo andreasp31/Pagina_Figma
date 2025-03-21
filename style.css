@@ -37,7 +37,7 @@ body{
 }
 
 #hero{
-    height: 35em;
+    height: 40em;
     background-image: url(Imagenes/Group\ 11.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -142,10 +142,91 @@ h2{
 
 #titulos{
     color: #3C3C3C;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 #textos{
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 30em;
+    margin-right: 30em;
     text-align: center;
+    padding-bottom: 2em;
 }
+
+#cajas{
+    display: grid;
+    grid-template-areas: "caja1 caja2 caja3"
+                         "caja4 caja5 caja6";
+    gap:0.5em;
+    padding: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+    justify-content: center;
+}
+
+#caja1{
+    height: 15em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja1;
+    background-color: #F6F4F2;
+}
+
+#caja2{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja2;
+    background-color: #F6F4F2;
+}
+
+#caja3{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja3;
+    background-color: #F6F4F2;
+}
+
+#caja4{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja4;
+    background-color: #F6F4F2;
+}
+
+#caja5{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja5;
+    background-color: #F6F4F2;
+}
+
+#caja6{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    grid-area: caja6;
+    background-color: #45270E;
+    color:white;
+}
+
+h3{
+    font-size: large;
+    color:#3C3C3C;
+}
+
+#texto_servicio{
+    font-size: medium;
+    padding-bottom: 2em;
+}
+
